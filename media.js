@@ -11,9 +11,9 @@ if(nota1>10.0 || nota2>10.0 || nota3>10.0 || nota4>10.0)
 alert("Digite somente notas entre 0 e 10");
 else if(nota1<0.0 || nota2<0.0 || nota3<0.0 || nota4<0.0)
 alert("Digite somente notas entre 0 e 10");
-else if(resultado<4.9)
+else if(resultado<5.0)
 alert(`Você ficou com média ${resultado} Resultado: reprovado`);
 else if(resultado>5.0 && resultado<7.0)
 alert(`Você ficou com média ${resultado} Resultado: recuperação`);
-else if(resultado>7.1)
+else if(resultado>7.0)
 alert(`Você ficou com média ${resultado} Resultado: aprovado`);
